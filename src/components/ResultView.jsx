@@ -60,7 +60,7 @@ export default class ResultView extends React.Component {
         const {preview, text} = this.state;
 
         // This chunk saves the output text as markdown file
-        var saveFile = false
+        var saveFile = true
         if (saveFile) {
             var FileSaver = require('file-saver')
             var blob = new Blob([text], {type: "text/plain;charset=utf-8"});

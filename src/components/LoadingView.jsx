@@ -122,24 +122,6 @@ export default class LoadingView extends React.Component {
                      { checkmark }
                    </div>
         });
-        return (
-            <div style={ { textAlign: 'center' } }>
-              <br/>
-              <br/>
-              <br/>
-              <Line percent={ percentDone } strokeWidth="2" strokeColor="#D3D3D3" />
-              <br/>
-              <br/>
-              <div>
-                { stageItems }
-              </div>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-            </div>);
     }
 }
 
